@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    /* background-color:skyblue; */
+    background-image: url(14718892840_10bba8ff6d_o.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{
+    background-color: #e1d9d9;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+    margin: 20px auto;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+form input[type="text"]{
+    padding: 10px;
+    font-size: 18px;
+    width: 70%;
+    border: red;
+    /* outline: none; */
+    border-radius: 5px;
+    background-color: white;
+    
+}
+form input[type="submit"]{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(242, 115, 115);
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+form input[type="submit"]:hover{
+    background-color: brown;
+}
+.icon img{
+    width: 100px;
+    height: 100px;
+    background-color: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 5px;
+}
+.temp{
+    font-size: 40px;
+    font-weight: 1000;
+    margin-top: 20px;
+    cursor:default;
+}
+.desc{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor:default;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.details>div{
+    font-size: 18px;
+    background-color: #c36161;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    min-height: 40px;
+    text-align: center;
+    align-items: center;
+    flex: 1;
+}
+.feels-like{
+    transition: all 0.2s ease-in;
+    cursor:default;
+}
+.humidity{
+    transition: all 0.2s ease-in;
+    cursor:default;
+}
+.wind-speed{
+    transition: all 0.2s ease-in;
+    cursor:default;
+
+}
+/* .feels-like:hover{
+    background-color: #c04141;
+}
+.humidity:hover{
+    background-color: #c04141;
+}
+.wind-speed:hover{
+    background-color: #c04141;
+} */
+/* .temp:hover{
+    background-color: skyblue;
+}
+.desc:hover{
+    background-color: azure;
+} */
